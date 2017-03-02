@@ -1,0 +1,6 @@
+E:\Documents\Visual Studio 2015\Projects\RememberTest\RememberTest\bin\Debug\RememberTest.exe.config
+E:\Documents\Visual Studio 2015\Projects\RememberTest\RememberTest\obj\Debug\RememberTest.csprojResolveAssemblyReference.cache
+E:\Documents\Visual Studio 2015\Projects\RememberTest\RememberTest\bin\Debug\RememberTest.exe
+E:\Documents\Visual Studio 2015\Projects\RememberTest\RememberTest\bin\Debug\RememberTest.pdb
+E:\Documents\Visual Studio 2015\Projects\RememberTest\RememberTest\obj\Debug\RememberTest.exe
+E:\Documents\Visual Studio 2015\Projects\RememberTest\RememberTest\obj\Debug\RememberTest.pdb
