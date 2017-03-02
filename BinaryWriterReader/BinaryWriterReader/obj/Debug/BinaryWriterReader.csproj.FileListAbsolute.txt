@@ -1,6 +1,0 @@
-E:\Documents\Visual Studio 2015\Projects\BinaryWriterReader\BinaryWriterReader\bin\Debug\BinaryWriterReader.exe.config
-E:\Documents\Visual Studio 2015\Projects\BinaryWriterReader\BinaryWriterReader\bin\Debug\BinaryWriterReader.exe
-E:\Documents\Visual Studio 2015\Projects\BinaryWriterReader\BinaryWriterReader\bin\Debug\BinaryWriterReader.pdb
-E:\Documents\Visual Studio 2015\Projects\BinaryWriterReader\BinaryWriterReader\obj\Debug\BinaryWriterReader.csprojResolveAssemblyReference.cache
-E:\Documents\Visual Studio 2015\Projects\BinaryWriterReader\BinaryWriterReader\obj\Debug\BinaryWriterReader.exe
-E:\Documents\Visual Studio 2015\Projects\BinaryWriterReader\BinaryWriterReader\obj\Debug\BinaryWriterReader.pdb
