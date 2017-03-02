@@ -90,20 +90,23 @@ namespace RememberTest
             }
         static void TestRow()
             {
-            for (int row = 0; row <= 10; row++)
+            for (int stroka = 0; stroka < 9; stroka+=2)
                 {
 
-//                for (int spaces = 10; spaces > row; spaces--)
-//                    {
-//                    Console.Write("_");
-//                    }
-
-                for (int i = 0; i <row-1; i++)
+                for (int spaces = 9; spaces > stroka; spaces-=2)
                     {
-                    Console.Write(" *");
+                    Console.Write(" ");
                     }
+
+                for (int column = 0; column<=stroka ; column++)
+                    {
+                    Console.Write("*");
+                    }
+
                 Console.WriteLine();
+
                 }
+
             Console.ReadLine();
             }
         }
