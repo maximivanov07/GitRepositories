@@ -14,8 +14,9 @@ namespace RememberTest
             //TestSwithcing();
             //TestWh();
             //TestArr();
-            TestRow();
-        }
+            //TestRow();
+            FizzBuzz();
+            }
         public static void Test()
             {
             Console.WriteLine("Type A");
@@ -75,7 +76,7 @@ namespace RememberTest
             string utype = Console.ReadLine();
             int a = Convert.ToInt32(utype);
 
-            while (a < 0 && a>10)
+            while (a < 0 && a > 10)
                 {
                 Console.WriteLine(a);
                 }
@@ -90,17 +91,41 @@ namespace RememberTest
             }
         static void TestRow()
             {
-            for (int stroka = 0; stroka < 9; stroka+=2)
+            for (int stroka = 0; stroka < 9; stroka += 2)
                 {
-                for (int spaces = 9; spaces > stroka; spaces-=2)
+                for (int spaces = 9; spaces > stroka; spaces -= 2)
                     {
                     Console.Write(" ");
                     }
-                for (int column = 0; column<=stroka ; column++)
+                for (int column = 0; column <= stroka; column++)
                     {
                     Console.Write("*");
                     }
                 Console.WriteLine();
+                }
+            Console.ReadLine();
+            }
+        static void FizzBuzz()
+            {
+            for (int i = 1; i <= 100; i++)
+                {
+                int fizz = i % 3;
+                int buzz = i % 5;
+
+                if (fizz==0 && buzz == 0)
+                    {
+                    Console.WriteLine("FizzBuzz");
+                    }
+                else if (fizz == 0)
+                    {
+                    Console.WriteLine("Fizz");
+                    }
+                else if (buzz == 0)
+                    {
+                    Console.WriteLine("Buzz");
+                    }
+                else
+                    Console.WriteLine(i);           
                 }
             Console.ReadLine();
             }
