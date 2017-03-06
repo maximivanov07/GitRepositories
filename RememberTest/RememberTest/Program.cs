@@ -92,21 +92,16 @@ namespace RememberTest
             {
             for (int stroka = 0; stroka < 9; stroka+=2)
                 {
-
                 for (int spaces = 9; spaces > stroka; spaces-=2)
                     {
                     Console.Write(" ");
                     }
-
                 for (int column = 0; column<=stroka ; column++)
                     {
                     Console.Write("*");
                     }
-
                 Console.WriteLine();
-
                 }
-
             Console.ReadLine();
             }
         }
