@@ -38,9 +38,8 @@ namespace Enumerations
                 //Methods
                 //GetNumberFromUser(); useful return
                 //CalculatePlayerScore();
-                //CountToTen(); //sending stuff to Method
-
-                //entUsersNumber();
+                
+                //sending stuff to Method
                 int a=entUsersNumber();
                 Count(a);
 
