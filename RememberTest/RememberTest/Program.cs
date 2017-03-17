@@ -40,8 +40,9 @@ namespace Enumerations
                 //CalculatePlayerScore();
                 //CountToTen(); //sending stuff to Method
 
-                entUsersNumber(toSend);
-               
+                //entUsersNumber();
+                int a=entUsersNumber();
+                Count(a);
 
                 }
             public static void Test()
@@ -289,17 +290,8 @@ namespace Enumerations
                        bossesDestroyed * 1000;
 
                 }
-            ///
             
-            //static void counttoten()
-            //    {
-            //    for (int index = 0; index <= 10; index++)
-            //        {
-            //        console.writeline(index);
-            //        }
-            //    console.readline();
-            //    }
-
+            ///
             static int entUsersNumber()
                 {
 
@@ -315,6 +307,7 @@ namespace Enumerations
                     {
                     Console.WriteLine(current);
                     }
+                Console.ReadLine();
                 }
             ///
             }
