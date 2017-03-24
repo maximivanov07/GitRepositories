@@ -38,11 +38,16 @@ namespace Enumerations
                 //Methods
                 //GetNumberFromUser(); useful return
                 //CalculatePlayerScore();
-                
-                //sending stuff to Method
-                int a=entUsersNumber();
-                Count(a);
 
+                //sending stuff to Method
+                //int a=entUsersNumber();
+                //Count(a);
+
+                //sending stuff, Reversing a Method
+                int[] numbers = GenerateNumbers();
+                ReverseArray(numbers);
+                Console.WriteLine("\n");
+                PrintNumbers(numbers);
                 }
             public static void Test()
                 {
@@ -289,17 +294,15 @@ namespace Enumerations
                        bossesDestroyed * 1000;
 
                 }
-            
-            ///
             static int entUsersNumber()
                 {
 
                 string b = Console.ReadLine();
                 int toSends = Convert.ToInt32(b);
-           
+
                 return toSends;
                 }
-
+            ///
             static void Count(int toSends)
                 {
                 for (int current = 1; current <= toSends; current++)
@@ -308,7 +311,37 @@ namespace Enumerations
                     }
                 Console.ReadLine();
                 }
+            static int[] GenerateNumbers()
+                {
+                int [] array = new int[5] { 100, 200, 300, 400, 500 };
+                return array;
+                }
+            static int[] ReverseArray(int [] array)
+                {
+                int [] originalArray = array;
+                int [] reversedArray = new int [array.Length];
+
+                for (int i = 0; i < array.Length; i++)
+                    {
+                    int a = reversedArray [i]=array[(array.Length-1)-i];
+                    Console.WriteLine(a);
+                    }
+                return reversedArray;
+                }
+            static void PrintNumbers(int [] reversedArray)
+                {
+                int a=reversedArray.Length;
+                int [] b = reversedArray;
+
+                for (int i = 0; i < a; i++)
+
+                    {
+                    Console.WriteLine(b [i]);
+                    }
+                Console.ReadLine();
+                }
             ///
+
             }
         }
     }
